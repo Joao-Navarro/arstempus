@@ -1,7 +1,5 @@
 'use client'
 
-import { ThemeContextNovo } from '@/context/Theme';
-
 import Header from "@/components/Header"
 
 import styles from "@/app/page.module.css"
