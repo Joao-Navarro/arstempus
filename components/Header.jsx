@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from "react"
+import { useUserContext } from '@/context/user';
 
 import Link from "next/link"
 
@@ -8,7 +8,7 @@ import { LoggedUserContext } from "@/context/LoggedUserContext";
 
 function Header() {
 
-    const [name, setName] = useState("")
+    const { user } = useUserContext();
 
     const menuShow = () => {
 
@@ -50,20 +50,7 @@ function Header() {
 
                             <div className="name">
 
-                                <input
-
-                                    placeholder="Digite seu primeiro nome"
-
-                                    type="text"
-
-                                    value={name}
-
-                                    onChange={e => setName(e.target.value)}
-
-                                />
-
-
-                                <p>Olá, {name}</p>
+                                <p>Olá, {user.name}</p>
 
                             </div>
 

@@ -1,10 +1,10 @@
 'use client'
 
-import { ThemeContextNovo } from '@/context/Theme';
-
 import Header from "@/components/Header"
 
 import styles from "@/app/page.module.css"
+
+import Image from "next/image";
 
 import { createContext, useState } from 'react';
 
@@ -25,7 +25,7 @@ function Home() {
 
       <div className={styles.banner}>
 
-        <img src="/schoolAtenas.png" alt="Escola de Atenas" />
+        <Image src="/schoolAtenas.png" alt="Escola de Atenas" width={1400} height={390} />
 
         <div className={styles.bannerTxt}>
 
@@ -42,7 +42,7 @@ function Home() {
 
         <div className={styles.card}>
 
-          <Link href="/renascimento" ><img src="/principalRenascimento.png" alt="Principal Renascimento" /></Link>
+          <Link href="/renascimento" ><Image src="/principalRenascimento.png" alt="Principal Renascimento" width={580} height={390} /></Link>
 
           <h3>Renascimento</h3>
 
@@ -50,7 +50,7 @@ function Home() {
 
         <div className={styles.card}>
 
-          <Link href="/abstracionismo" ><img src="/principalAbstracionismo.png" alt="Principal Abstracionismo" /></Link>
+          <Link href="/abstracionismo" ><Image src="/principalAbstracionismo.png" alt="Principal Abstracionismo" width={580} height={390} /></Link>
 
           <h3>Abstracionismo</h3>
 
@@ -58,7 +58,7 @@ function Home() {
 
         <div className={styles.card}>
 
-          <Link href="/barroco" ><img src="/principalBarroco.png" alt="Principal Barroco" /></Link>
+          <Link href="/barroco" ><Image src="/principalBarroco.png" alt="Principal Barroco" width={580} height={390} /></Link>
 
           <h3>Barroco</h3>
 
@@ -67,7 +67,7 @@ function Home() {
 
         <div className={styles.card}>
 
-          <Link href="/impressionismo" ><img src="/principalImpressionismo.png" alt="Principal Impressionismo" /></Link>
+          <Link href="/impressionismo" ><Image src="/principalImpressionismo.png" alt="Principal Impressionismo" width={580} height={390} /></Link>
 
           <h3>Impressionismo</h3>
 
@@ -75,7 +75,7 @@ function Home() {
 
         <div className={styles.card}>
 
-          <Link href="/rococo" ><img src="/principalRococo.png" alt="Principal Rococo" /></Link>
+          <Link href="/rococo" ><Image src="/principalRococo.png" alt="Principal Rococo" width={580} height={390} /></Link>
 
           <h3>Rococó</h3>
 
@@ -83,7 +83,7 @@ function Home() {
 
         <div className={styles.card}>
 
-          <Link href="/romantismo" ><img src="/principalRomantismo.png" alt="Principal Romantismo" /></Link>
+          <Link href="/romantismo" ><Image src="/principalRomantismo.png" alt="Principal Romantismo" width={580} height={390} /></Link>
 
           <h3>Romantismo</h3>
 
@@ -91,7 +91,7 @@ function Home() {
 
         <div className={styles.card}>
 
-          <Link href="/realismo" ><img src="/principalRealismo.png" alt="Principal Realismo" /></Link>
+          <Link href="/realismo" ><Image src="/principalRealismo.png" alt="Principal Realismo" width={580} height={390} /></Link>
 
           <h3>Realismo</h3>
 
@@ -99,7 +99,7 @@ function Home() {
 
         <div className={styles.card}>
 
-          <Link href="/neoclassicismo" ><img src="/principalNeoclassicismo.png" alt="Principal Neoclassicismo" /></Link>
+          <Link href="/neoclassicismo" ><Image src="/principalNeoclassicismo.png" alt="Principal Neoclassicismo" width={580} height={390} /></Link>
 
           <h3>Neoclassicismo</h3>
 
