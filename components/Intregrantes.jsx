@@ -1,6 +1,8 @@
 
 import styles from '@/app/sobrenos/page.module.css'
 
+import Image from 'next/image'
+
 function Integrante(props) {
 
     return (
@@ -11,7 +13,7 @@ function Integrante(props) {
                         key={index}
                         className={styles.imgBx}
                     >
-                        <img src={imageUrl.img} alt={`Integrante ${index}`}  />
+                        <Image src={imageUrl.img} alt={`Integrante ${index}`}  />
                     </div>
                     <div className={styles.content}>
                         <h3>Nome: {imageUrl.nome}</h3><br />
