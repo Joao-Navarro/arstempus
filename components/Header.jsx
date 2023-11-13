@@ -124,7 +124,7 @@ function Header() {
 
                         <div className="mobile-menu-icon">
 
-                            <button onClick={menuShow} className="btn-icon"><Image className="icon" src="/menuIcon.png" alt="Menu Icon" /></button>
+                            <button onClick={menuShow} className="btn-icon"><Image className="icon" src="/menuIcon.png" alt="Menu Icon" width={20} height={20} /></button>
 
                         </div>
                     </nav>
