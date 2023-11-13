@@ -4,6 +4,8 @@ import { useUserContext } from '@/context/user';
 
 import Link from "next/link"
 
+import Image from 'next/image';
+
 import { LoggedUserContext } from "@/context/LoggedUserContext";
 
 function Header() {
@@ -122,7 +124,7 @@ function Header() {
 
                         <div className="mobile-menu-icon">
 
-                            <button onClick={menuShow} className="btn-icon"><img className="icon" src="/menuIcon.png" alt="Menu Icon" /></button>
+                            <button onClick={menuShow} className="btn-icon"><Image className="icon" src="/menuIcon.png" alt="Menu Icon" /></button>
 
                         </div>
                     </nav>
