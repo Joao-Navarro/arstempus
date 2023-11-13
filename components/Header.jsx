@@ -40,7 +40,6 @@ function Header() {
 
         <>
 
-            <LoggedUserContext.Provider value={name}>
 
                 <div className="headerBox">
 
@@ -192,7 +191,6 @@ function Header() {
 
                 </div>
 
-            </LoggedUserContext.Provider>
 
         </>
 
