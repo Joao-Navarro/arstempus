@@ -25,7 +25,7 @@ function Home() {
 
       <div className={styles.banner}>
 
-        <Image src="/schoolAtenas.png" alt="Escola de Atenas" width={1400} height={690} />
+        <Image src="/schoolAtenas.png" alt="Escola de Atenas" width={1400} height={390} />
 
         <div className={styles.bannerTxt}>
 
