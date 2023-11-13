@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
@@ -36,7 +36,7 @@ function Realismo() {
 
             <p className="texto">
 
-            O Realismo foi um movimento artístico e literário do século XIX em reação ao Romantismo. Caracterizou-se pela representação objetiva da realidade, abordando a vida cotidiana, questões sociais, políticas e econômicas de forma crítica. Na pintura, focou em temas como a classe trabalhadora, pobreza e desigualdades, evitando romantização. Gustave Courbet se destacou com obras como "Os Quebradores de Pedra." Na literatura, explorou a psicologia humana e questões sociais, com autores notáveis como Gustave Flaubert e Émile Zola. O Realismo surgiu em resposta à Revolução Industrial e influenciou movimentos posteriores, moldando a cultura moderna.
+                "O Realismo foi um movimento artístico e literário do século XIX em reação ao Romantismo. Caracterizou-se pela representação objetiva da realidade, abordando a vida cotidiana, questões sociais, políticas e econômicas de forma crítica. Na pintura, focou em temas como a classe trabalhadora, pobreza e desigualdades, evitando romantização. Gustave Courbet se destacou com obras como "Os Quebradores de Pedra." Na literatura, explorou a psicologia humana e questões sociais, com autores notáveis como Gustave Flaubert e Émile Zola. O Realismo surgiu em resposta à Revolução Industrial e influenciou movimentos posteriores, moldando a cultura moderna."
 
             </p>
 
