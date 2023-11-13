@@ -1,6 +1,8 @@
 
 import { useState } from "react"
 
+import Image from "next/image"
+
 const ImageGallery = (props) => {
 
     const [selectedImage, setSelectedImage] = useState(null)
@@ -47,7 +49,7 @@ const ImageGallery = (props) => {
 
                     >
 
-                        <img onClick={() => openImage(imageUrl)} src={imageUrl.img} alt={`Image $ {index}`} />
+                        <Image onClick={() => openImage(imageUrl)} src={imageUrl.img} alt={`Image $ {index}`} width={500} height={400} />
 
                         <br />
 
@@ -74,7 +76,7 @@ const ImageGallery = (props) => {
 
                     </span>
 
-                    <img src={selectedImage} alt="Selected Image" /> 
+                    <Image src={selectedImage} alt="Selected Image" width={1500} height={900} /> 
                     
                 </div>
 
